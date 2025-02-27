@@ -1,3 +1,4 @@
+/* File: index.html */
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,37 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vikavi Ventures</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.min.js"></script>
-    <style>
-        body { font-family: 'Poppins', sans-serif; }
-        .hero-section { 
-            background: url('luxury-bg.jpg') no-repeat center center/cover;
-            height: 90vh; 
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-            text-align: center;
-            color: white;
-        }
-        .hero-overlay {
-            background: rgba(0, 0, 0, 0.6);
-            padding: 40px;
-            border-radius: 10px;
-        }
-        .cta-button {
-            background: linear-gradient(135deg, #b76e79, #8b5a62);
-            padding: 12px 24px;
-            border-radius: 30px;
-            transition: all 0.3s;
-        }
-        .cta-button:hover {
-            opacity: 0.8;
-        }
-    </style>
 </head>
 <body class="bg-gray-100">
-    
-    <!-- Header -->
     <header class="bg-white shadow-md p-4 flex justify-between items-center">
         <h1 class="text-2xl font-bold text-gray-900">Vikavi Ventures</h1>
         <nav>
@@ -48,17 +20,11 @@
             </ul>
         </nav>
     </header>
-    
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-overlay">
-            <h2 class="text-5xl font-extrabold mb-4">Vikavi Ventures: A Premium Luxury Holding Company</h2>
-            <p class="text-lg mb-6">Expanding into multiple premium brands, providing elegance, trust, and quality.</p>
-            <a href="brands.html" class="cta-button text-white font-semibold">Explore Our Brands</a>
-        </div>
+    <section class="p-8 text-center">
+        <h2 class="text-4xl font-bold text-gray-800">Welcome to Vikavi Ventures</h2>
+        <p class="mt-4 text-gray-600">A premium luxury brand holding company focused on elegance, craftsmanship, and innovation.</p>
+        <a href="brands.html" class="mt-6 inline-block bg-gray-900 text-white px-6 py-3 rounded">Explore Our Brands</a>
     </section>
-
-    <!-- Footer -->
     <footer class="text-center p-4 bg-gray-900 text-white mt-8">
         &copy; 2025 Vikavi Ventures. All Rights Reserved.
     </footer>
